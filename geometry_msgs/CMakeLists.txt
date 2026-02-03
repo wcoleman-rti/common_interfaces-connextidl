@@ -12,6 +12,7 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(connextidl_typesupport_cpp2 REQUIRED)  # Native Connext "modern" C++ code generation
 find_package(std_msgs REQUIRED)
 
 set(msg_files
